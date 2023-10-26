@@ -40,8 +40,9 @@ Thank you for visiting my GitHub profile! I'm excited about the work I do, and I
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sshuvoo" alt="sshuvoo" /></a> </p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sshuvoo&show_icons=true&theme=gotham)
-
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sshuvoo&repo=github-readme-stats&theme=gotham)
+<a href="https://github.com/sshuvoo?tab=repositories">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=sshuvoo&show_icons=true&theme=gotham" />
+</a>
+<a href="https://github.com/sshuvoo?tab=repositories">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact&langs_count=8&card_width=320" />
+</a>
