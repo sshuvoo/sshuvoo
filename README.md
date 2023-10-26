@@ -32,14 +32,6 @@ Here are some of the projects I've worked on:
 
 You can explore more of my projects on my [GitHub profile](https://github.com/sshuvoo).
 
-## Contact
-
-Feel free to get in touch with me. Whether it's about collaboration, job opportunities, or just a friendly chat, I'm always open to connect.
-
--  📧 Email: [youremail@example.com](mailto:youremail@example.com)
--  🌐 [LinkedIn](https://www.linkedin.com/in/yourusername)
--  🐦 [Twitter](https://twitter.com/yourusername)
-
 ## Resume
 
 If you'd like to learn more about my professional background and experience, you can check out my [resume](link-to-your-resume).
@@ -51,3 +43,5 @@ Thank you for visiting my GitHub profile! I'm excited about the work I do, and I
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sshuvoo&show_icons=true&theme=gotham)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sshuvoo&repo=github-readme-stats&theme=gotham)](https://github.com/sshuvoo/github-readme-stats)
