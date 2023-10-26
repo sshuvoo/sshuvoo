@@ -46,12 +46,3 @@ Thank you for visiting my GitHub profile! I'm excited about the work I do, and I
 <a href="https://github.com/sshuvoo?tab=repositories">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact" />
 </a>
-
-<div style="display: flex; justify-content: space-between;">
-  <a href="https://github.com/sshuvoo?tab=repositories" style="flex: 1;">
-    <img height=200 src="https://github-readme-stats.vercel.app/api?username=sshuvoo&show_icons=true&theme=gotham" />
-  </a>
-  <a href="https://github.com/sshuvoo?tab=repositories" style="flex: 1;">
-    <img height=200 src="https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact" />
-  </a>
-</div>
