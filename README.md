@@ -44,4 +44,4 @@ Thank you for visiting my GitHub profile! I'm excited about the work I do, and I
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sshuvoo&show_icons=true&theme=gotham)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sshuvoo&repo=github-readme-stats&theme=gotham)](https://github.com/sshuvoo/github-readme-stats)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sshuvoo&repo=github-readme-stats&theme=gotham)
