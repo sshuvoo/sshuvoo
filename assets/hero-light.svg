@@ -1,0 +1,70 @@
+<svg width="940" height="300" viewBox="0 0 940 300" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace">
+  <!-- ============ Saffaullah Shuvo · career, plotted (light) ============ -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#eaeef2" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="curve" x1="80" y1="240" x2="820" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a7f37"/>
+      <stop offset="0.5" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#8250df"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="940" height="300" fill="#ffffff"/>
+  <rect width="940" height="300" fill="url(#grid)"/>
+
+  <!-- header -->
+  <text x="52" y="46" fill="#1f2328" font-size="26" font-weight="700">Saffaullah Shuvo</text>
+  <text x="52" y="72" fill="#59636e" font-size="13">Software Engineer &#183; TypeScript &#183; React &#183; Next.js &#183; Node.js &#183; Go</text>
+  <text x="888" y="46" text-anchor="end" fill="#0969da" font-size="15">&#8747; curiosity &#183; dt = software</text>
+  <text x="888" y="70" text-anchor="end" fill="#8c959f" font-size="12">// applied mathematician, compiled to engineer</text>
+
+  <!-- axes -->
+  <line x1="50" y1="100" x2="50" y2="262" stroke="#d1d9e0" stroke-width="1.5"/>
+  <line x1="50" y1="262" x2="910" y2="262" stroke="#d1d9e0" stroke-width="1.5"/>
+  <text x="58" y="108" fill="#8c959f" font-size="11">curiosity</text>
+  <text x="908" y="278" text-anchor="end" fill="#8c959f" font-size="11">time</text>
+
+  <!-- the career curve, drawn on load -->
+  <path d="M 90 238 C 150 233, 200 222, 250 215 S 360 194, 410 185 S 510 167, 560 160 S 640 145, 690 138 S 770 124, 810 118"
+        stroke="url(#curve)" stroke-width="2.5" stroke-linecap="round" fill="none"
+        stroke-dasharray="780" stroke-dashoffset="780">
+    <animate attributeName="stroke-dashoffset" from="780" to="0" dur="2.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="780;0"/>
+  </path>
+
+  <!-- extrapolation -->
+  <g opacity="0">
+    <line x1="810" y1="118" x2="896" y2="102" stroke="#59636e" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <text x="899" y="98" fill="#59636e" font-size="12">?</text>
+    <animate attributeName="opacity" from="0" to="0.7" begin="2.5s" dur="0.5s" fill="freeze"/>
+  </g>
+
+  <!-- data points -->
+  <g>
+    <circle cx="90" cy="238" r="4" fill="#1a7f37" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.3s" fill="freeze"/></circle>
+    <text x="90" y="256" text-anchor="middle" fill="#1a7f37" font-size="11" opacity="0">B.Sc. Applied Math<animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/></text>
+
+    <circle cx="250" cy="215" r="4" fill="#9a6700" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.3s" fill="freeze"/></circle>
+    <text x="250" y="201" text-anchor="middle" fill="#9a6700" font-size="11" opacity="0">JavaScript<animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.4s" fill="freeze"/></text>
+
+    <circle cx="410" cy="185" r="4" fill="#0969da" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.95s" dur="0.3s" fill="freeze"/></circle>
+    <text x="410" y="207" text-anchor="middle" fill="#0969da" font-size="11" opacity="0">TypeScript<animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.4s" fill="freeze"/></text>
+
+    <circle cx="560" cy="160" r="4" fill="#218bff" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.3s" fill="freeze"/></circle>
+    <text x="560" y="146" text-anchor="middle" fill="#218bff" font-size="11" opacity="0">React &#183; Next.js<animate attributeName="opacity" from="0" to="1" begin="1.45s" dur="0.4s" fill="freeze"/></text>
+
+    <circle cx="690" cy="138" r="4" fill="#8250df" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.75s" dur="0.3s" fill="freeze"/></circle>
+    <text x="690" y="160" text-anchor="middle" fill="#8250df" font-size="11" opacity="0">Node.js &#183; APIs<animate attributeName="opacity" from="0" to="1" begin="1.85s" dur="0.4s" fill="freeze"/></text>
+
+    <!-- current position: pulsing -->
+    <circle cx="810" cy="118" r="5" fill="#cf222e" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.3s" fill="freeze"/></circle>
+    <circle cx="810" cy="118" r="5" fill="none" stroke="#cf222e" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="5;14" begin="2.5s" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0" begin="2.5s" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="810" y="100" text-anchor="middle" fill="#cf222e" font-size="11" font-weight="700" opacity="0">Go + PostgreSQL<animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.4s" fill="freeze"/></text>
+    <text x="810" y="86" text-anchor="middle" fill="#59636e" font-size="10" opacity="0">&#9666; you are here<animate attributeName="opacity" from="0" to="0.8" begin="2.6s" dur="0.4s" fill="freeze"/></text>
+  </g>
+</svg>
