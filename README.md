@@ -23,15 +23,17 @@
 
 I'm **Saffaullah Shuvo** — a full-stack **software engineer** from Bangladesh with a B.Sc. in **Applied Mathematics**. Most people call that a career switch. I call it a domain extension.
 
-The math never left — it just changed notation. Vectors and geometry became **canvas rendering engines**. Set theory became **TypeScript's type system**. Optimization became **algorithm design**. When your mental model of code is mathematical, "it works" isn't enough — it has to be *provably correct* and *elegantly minimal*.
+The math never left — it just changed notation. Vectors and geometry became **canvas rendering engines**. Set theory became **TypeScript's type system**. Optimization became **algorithm design**. When your mental model of code is mathematical, "it works" isn't enough — it has to be _provably correct_ and _elegantly minimal_.
 
 ```typescript
 const shuvo = {
-  degree:    "B.Sc. in Applied Mathematics",
-  compiles:  ["TypeScript", "JavaScript", "Go"],
-  frontend:  ["React", "Next.js", "Redux", "Tailwind CSS", "shadcn/ui"],
-  backend:   ["Node.js", "Express", "REST APIs"],
-  databases: ["MongoDB", "PostgreSQL"],
+  degree: "B.Sc. in Applied Mathematics",
+  compiles: ["TypeScript", "JavaScript"],
+  frontend: ["React", "Next.js", "Redux", "Tailwind CSS", "shadcn/ui"],
+  backend: ["Node.js", "Express", "REST APIs"],
+  databases: ["MongoDB"],
+  dataStructure: ["Linked List", "Tree", "Graph"],
+  learning: ["Go", "PostgreSQL"],
 } as const satisfies Engineer;
 ```
 
@@ -39,7 +41,7 @@ const shuvo = {
 
 ## Theorem: math makes better software
 
-**Proof — by construction.** I built things where the mathematics is *load-bearing*, not decorative:
+**Proof — by construction.** I built things where the mathematics is _load-bearing_, not decorative:
 
 <table>
   <tr>
