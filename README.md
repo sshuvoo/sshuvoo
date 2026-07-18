@@ -28,13 +28,11 @@ The math never left — it just changed notation. Vectors and geometry became **
 ```typescript
 const shuvo = {
   degree:    "B.Sc. in Applied Mathematics",
-  compiles:  ["TypeScript", "JavaScript ES6+", "Go"],
-  frontend:  ["React", "Next.js", "Astro", "Redux", "Zustand", "Tailwind CSS", "shadcn/ui"],
-  backend:   ["Node.js", "Express", "REST APIs", "Auth/RBAC", "Prisma", "Mongoose"],
+  compiles:  ["TypeScript", "JavaScript", "Go"],
+  frontend:  ["React", "Next.js", "Redux", "Tailwind CSS", "shadcn/ui"],
+  backend:   ["Node.js", "Express", "REST APIs"],
   databases: ["MongoDB", "PostgreSQL"],
-  now:       "learning Go & PostgreSQL deeply — building a SaaS on them",
-  axiom:     "type-unsafe code is a proof with a hole in it",
-} as const satisfies Engineer;   // ← the compiler agrees, and that's the point
+} as const satisfies Engineer;
 ```
 
 <br>
@@ -82,8 +80,6 @@ const shuvo = {
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sshuvoo&layout=compact&theme=default&hide_border=true&bg_color=00000000&langs_count=8" alt="Most used programming languages by Saffaullah Shuvo: TypeScript, JavaScript, C++, Go" height="165">
   </picture>
 </p>
-
-<br>
 
 ## Boundary conditions
 
