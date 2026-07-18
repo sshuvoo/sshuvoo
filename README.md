@@ -70,20 +70,7 @@ const shuvo = {
   </tr>
 </table>
 
-$\blacksquare$ <sub>*(q.e.d. — but the proof is still being extended: a SaaS built on **Go + PostgreSQL** is currently in development on localhost, graduating to a repo soon.)*</sub>
-
 <br>
-
-## Current derivative $\left( \frac{d(\text{skills})}{dt} > 0 \right)$
-
-- 🚀 **Building:** a SaaS product — my first production system on **Go** and **PostgreSQL**
-- 📗 **Learning:** Go's concurrency model & PostgreSQL internals — aiming squarely at backend engineering
-- 🔬 **Refining:** advanced TypeScript patterns — generics, conditional types, `satisfies`, type-level programming
-- 🤝 **Open to:** full-time roles, contract work, OSS collaboration, and mentoring — in *both* directions. If you're a junior dev, my inbox is open; if you're a Go/Postgres veteran, I'm all ears.
-
-<br>
-
-## Empirical data
 
 <p align="center">
   <picture>
